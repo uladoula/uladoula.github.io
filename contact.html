@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us to schedule a consultation and learn more about our doula services.">
+    <title>Contact - Birth Support Doula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Birth Support Doula</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Let's start the conversation about your birth journey</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h3>Send Me a Message</h3>
+                    <p>Fill out the form below and I'll get back to you within 24 hours.</p>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Your full name"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="your.email@example.com"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="(555) 123-4567"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dueDate">Due Date (if applicable)</label>
+                            <input
+                                type="date"
+                                id="dueDate"
+                                name="dueDate"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="birth-doula">Birth Doula Package</option>
+                                <option value="postpartum-doula">Postpartum Doula Package</option>
+                                <option value="complete-care">Complete Care Package</option>
+                                <option value="childbirth-education">Childbirth Education</option>
+                                <option value="consultation">Consultation Services</option>
+                                <option value="vbac-support">VBAC Support</option>
+                                <option value="not-sure">Not sure yet</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                required
+                                placeholder="Tell me about yourself and how I can support you..."
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                I consent to being contacted about doula services *
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:hello@birthsupportdoula.com">hello@birthsupportdoula.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Service Area</h4>
+                                <p>Your City & Surrounding Areas</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <span>f</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <span>📷</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <span>in</span>
+                            </a>
+                        </div>
+                        <p class="social-note"><em>Update these links with your actual social media profiles</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section bg-light">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>When should I hire a doula?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Many families begin looking for a doula during the second trimester, though
+                            it's never too early or late to reach out. I recommend connecting as early
+                            as possible to ensure availability and allow time for prenatal visits.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you offer payment plans?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Yes! I offer flexible payment plans to make doula support accessible.
+                            We can discuss options that work for your budget during our consultation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is your availability?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            I accept a limited number of clients per month to ensure I can provide
+                            quality support. Contact me to check availability for your due date.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you support all types of births?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Yes! I support births in hospitals, birth centers, and homes. I also
+                            support all birth preferences, including medicated, unmedicated, VBAC,
+                            and cesarean births.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How does the consultation work?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            The initial consultation is free and can be done in person, by phone, or
+                            via video call. We'll discuss your birth preferences, my services, and
+                            whether we're a good fit. There's no obligation to hire me afterward.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta section">
+        <div class="container">
+            <h2>Ready to Schedule Your Consultation?</h2>
+            <p>Take the first step toward supported, empowered birth.</p>
+            <a href="#contactForm" class="btn btn-secondary">Fill Out the Form Above</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Birth Support Doula. All rights reserved.</p>
+            <p>Professional doula services with compassion and care.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
