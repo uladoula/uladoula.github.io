@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Warm ritual landscape</title>
+  <desc id="desc">Original warm abstract hero art for offerings.</desc>
+  <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d6548"/>
+      <stop offset=".5" stop-color="#b08b67"/>
+      <stop offset="1" stop-color="#4b3d2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="520" fill="url(#warm)"/>
+  <circle cx="1180" cy="120" r="170" fill="#f3dfc6" opacity=".24"/>
+  <path d="M0 345c190-60 355-63 508-9 162 57 318 48 468-28 199-100 407-79 624 62v150H0Z" fill="#3f3527" opacity=".55"/>
+  <path d="M248 400c56-90 108-148 157-173 44 34 86 92 126 173" fill="none" stroke="#f4eee7" stroke-width="12" opacity=".42" stroke-linecap="round"/>
+</svg>

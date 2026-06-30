@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Dusky forest and moonlit hills</title>
+  <desc id="desc">Original abstract nature hero art in deep green and brown tones.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#293326"/>
+      <stop offset="0.55" stop-color="#504934"/>
+      <stop offset="1" stop-color="#171b16"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="58%" cy="23%" r="30%">
+      <stop offset="0" stop-color="#efe7d9" stop-opacity=".42"/>
+      <stop offset=".4" stop-color="#efe7d9" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#efe7d9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="620" fill="url(#sky)"/>
+  <rect width="1600" height="620" fill="url(#moon)"/>
+  <path d="M0 420c160-85 305-92 470-27 128 51 242 49 370 2 195-72 436-70 760 52v173H0Z" fill="#1f251d" opacity=".9"/>
+  <path d="M0 490c230-74 418-73 610 3 143 57 307 43 492-38 171-75 334-63 498 38v127H0Z" fill="#10140f" opacity=".92"/>
+  <g opacity=".55" stroke="#0c100b" stroke-width="8" stroke-linecap="round">
+    <path d="M120 470V210m0 80-56-62m56 46 55-63M265 455V180m0 93-67-74m67 55 63-70M1390 460V185m0 96-72-73m72 58 69-80M1510 480V250m0 73-49-57m49 42 54-59"/>
+  </g>
+</svg>

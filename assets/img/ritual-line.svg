@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Ritual botanical line art</title>
+  <desc id="desc">Original botanical moon and flower line illustration.</desc>
+  <rect width="420" height="420" fill="#f4eee7"/>
+  <circle cx="210" cy="210" r="150" fill="none" stroke="#656144" stroke-width="4"/>
+  <path d="M210 70c-44 39-66 87-66 144 0 61 22 107 66 136 44-29 66-75 66-136 0-57-22-105-66-144Z" fill="none" stroke="#4f4b43" stroke-width="6"/>
+  <path d="M210 112v206M148 186c-37-8-66-31-88-69 48 0 83 17 105 50M272 186c37-8 66-31 88-69-48 0-83 17-105 50M150 276c-35 10-66 34-92 72 53-2 91-22 115-59M270 276c35 10 66 34 92 72-53-2-91-22-115-59" fill="none" stroke="#b08b67" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="210" cy="212" r="34" fill="none" stroke="#656144" stroke-width="5"/>
+</svg>

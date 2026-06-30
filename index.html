@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ula Doula Static Rebuild</title>
+    <meta name="description" content="A quiet static rebuild of Ula Doula with Home, About me, Package, and Contact tabs.">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-band">
+        <div class="header-inner social-row" aria-label="Social links">
+          <a class="social-link" href="https://www.facebook.com/jsamovarova/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>
+          <a class="social-link" href="https://www.instagram.com/colorado.ula.doula/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">ig</a>
+        </div>
+        <div class="logo-wrap">
+          <img class="site-logo" src="assets/img/logo-mark.svg" alt="Ula Doula botanical mother mark">
+        </div>
+      </div>
+
+      <nav class="desktop-tabs" aria-label="Primary navigation">
+        <button class="tab-link is-active" type="button" data-tab-target="home" aria-selected="true">Home</button>
+        <button class="tab-link" type="button" data-tab-target="about" aria-selected="false">About me</button>
+        <button class="tab-link" type="button" data-tab-target="packages" aria-selected="false">Packages</button>
+        <button class="tab-link" type="button" data-tab-target="contact" aria-selected="false">Contact</button>
+      </nav>
+
+      <div class="mobile-menu-shell">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="hamburger" aria-hidden="true"></span>
+          <span>Menu</span>
+        </button>
+        <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+          <button class="tab-link is-active" type="button" data-tab-target="home" aria-selected="true">Home</button>
+          <button class="tab-link" type="button" data-tab-target="about" aria-selected="false">About me</button>
+          <button class="tab-link" type="button" data-tab-target="packages" aria-selected="false">Packages</button>
+          <button class="tab-link" type="button" data-tab-target="contact" aria-selected="false">Contact</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="tab-panel is-active" data-tab-panel>
+        <div class="hero hero-home">
+          <div class="hero-content">
+            <p class="hero-kicker">Welcome to</p>
+            <h1>Ula Doula</h1>
+            <p>Compassionate support for a gentle path into motherhood</p>
+          </div>
+        </div>
+
+        <section class="section" aria-labelledby="home-welcome">
+          <div class="container split welcome-split">
+            <div class="circle-media">
+              <img src="assets/img/circle-mother.png" alt="Gentle mother and child illustration">
+            </div>
+            <div class="copy-column">
+              <h2 id="home-welcome">Welcome to Ula Doula</h2>
+              <p>The name Ula comes from the Manchu phrase Sahaliyan Ula ("Black River"), the original name of the Amur River in the Russian Far East, where I was born and raised.
+Like a river, pregnancy, birth, and early parenthood are powerful journeys of change. 
+They ask us to move with uncertainty, trust our inner wisdom, and find support along the way.
+Now living in Colorado, I bring together my roots, my passion for supporting families, and my work as a doula to offer compassionate, evidence-based care through pregnancy, birth, and the postpartum period.</p>
+              <p>My role is to help you feel informed, supported, and deeply cared for during life's most transformative transitions, so that you never have to walk this path alone.</p>
+              <button class="button-link" type="button" data-tab-target="about">About me</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section warm" aria-labelledby="home-services">
+          <div class="container">
+            <h2 class="center-title" id="home-services">My Services</h2>
+            <div class="service-list">
+              <article class="service-row">
+                <div class="service-copy">
+                  <span class="heart" aria-hidden="true">♥</span>
+                  <h3>Personalised Birth Support</h3>
+                  <p>Calm preparation, emotional support, practical tools, and grounded advocacy for the kind of birth environment that feels right for you.</p>
+                  <button class="button-link" type="button" data-tab-target="packages">Packages</button>
+                </div>
+                <img class="service-art" src="assets/img/ritual-line.png" alt="Botanical ritual line illustration">
+              </article>
+
+              <article class="service-row reverse">
+                <div class="service-copy">
+                  <span class="heart" aria-hidden="true">♥</span>
+                  <h3>Postpartum Care</h3>
+                  <p>Gentle support as your home, body, and relationships settle into a new rhythm after birth, with space for rest, questions, and nourishment.</p>
+                </div>
+                <img class="service-art" src="assets/img/postpartum-care.png" alt="Circular parent and baby illustration">
+              </article>
+
+            
+            </div>
+          </div>
+        </section>
+
+        <section class="section connect-section" aria-labelledby="home-connect">
+          <div class="container narrow">
+            <h2 id="home-connect">Let's connect!</h2>
+            <p>I would be honored to meet you, share a cup of tea, and learn more about your hopes and needs as you prepare for this chapter of life. Finding the right doula is important, and our conversation is a chance to see whether we're a good fit.</p>
+            <p>Please reach out if you'd like to talk more about your options</p>
+            <button class="button-link" type="button" data-tab-target="contact">Contact me</button>
+          </div>
+        </section>
+      </section>
+
+      <section id="about" class="tab-panel" data-tab-panel hidden>
+        <section class="section about-intro" aria-labelledby="about-title">
+          <div class="container split about-split">
+            <div class="circle-media about-portrait">
+              <img src="assets/img/about-me.png" alt="Ula smiling beside a stroller with mountain views behind her">
+            </div>
+            <div class="copy-column">
+              <h1 id="about-title">About me</h1>
+              <p class="lead">Hi, I'm Eugenia</p>
+              <p>I am a mother of two boys, and the journey through pregnancy, birth, and motherhood changed the course of my life in ways I never expected.</p>
+              <p>Becoming a mother was more than a new role, it was a profound transformation. It taught me about strength, vulnerability, trust, and the incredible wisdom that lives within women. Through my own experience, I discovered how important it is to feel supported, informed, and truly cared for during this life-changing transition.
+                That experience inspired me to become a doula.
+                Today, I support women as they move through pregnancy, birth, and the early days of motherhood. I believe this journey should not be walked alone. Every woman deserves to feel seen, heard, and held as she finds her own path into motherhood.
+                My role is not to tell you how your birth should look. Instead, I offer knowledge, emotional support, encouragement, and a calm presence so that you can make choices that feel right for you and your family.
+                I believe birth can be a powerful, joyful, and deeply meaningful experience. My hope is to help you approach this chapter with confidence, love, and trust in yourself as you welcome your baby and step into motherhood.</p>
+            </div>
+          </div>
+
+      
+        </section>
+
+        <section class="quote-band" aria-label="Birth quote">
+          <div class="container quote-inner">
+            <blockquote>
+            <p>"To change the world, we must first change the way the babies are being born"</p>
+              <cite>Michel Odent</cite>
+            </blockquote>
+          </div>
+        </section>
+
+        <section class="section about-philosophy" aria-labelledby="about-philosophy-title">
+          <div class="container narrow">
+            <h2 id="about-philosophy-title" class="visually-hidden">My approach</h2>
+            <p>I am deeply moved by the natural intelligence of women's bodies and the old rhythms that still live inside pregnancy, birth, and mothering. A positive birth experience is not about perfection; it is about feeling respected, informed, and connected to your own strength.</p>
+            <p>As your doula, I bring continuous emotional support, grounded information, gentle advocacy, and simple holistic tools such as breath, movement, affirmations, aromatherapy, grounding practices, and rest rituals. My aim is to help you feel safe enough to soften, strong enough to speak, and steady enough to meet each moment.</p>
+
+            <img class="small-symbol" src="assets/img/logo-mark.svg" alt="Small botanical mother symbol">
+
+            <p>Outside of supporting growing families, you'll usually find me exploring the outdoors. I love hiking, camping, and spending time in nature, it helps me slow down and recharge. At home, I enjoy cross-stitching, tending to my little garden, and growing tomatoes and fresh herbs. These simple moments remind me of the beauty of nurturing, patience, and growth, the same values I bring to every family I have the privilege of supporting</p>
+          </div>
+        </section>
+
+        <section class="qualification-band" aria-labelledby="qualifications-title">
+          <div class="container narrow">
+            <h2 id="qualifications-title">Training &amp; qualifications:</h2>
+            <ul class="plain-list qualification-list">
+              <li>Certified Professional Doula (PD), Rocky Mountain Doula Professional Doula Certification Program</li>
+              <li>Certified in Hypnobirthing birth support and childbirth preparation, Online School of Hypnobirthing with Anastasia Ivanova</li>
+              <li>Trained in birth physiology, comfort measures, informed decision-making, and continuous labor support</li>
+              <li>Guidance in relaxation, deep focus, and emotional preparation for birth</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section about-fun" aria-labelledby="about-fun-title">
+          <div class="container">
+            <h2 class="center-title" id="about-fun-title">Here is what I do for fun</h2>
+          </div>
+
+          <div class="gallery-carousel" data-gallery-carousel aria-label="About photo gallery">
+            <button class="gallery-button gallery-button-prev" type="button" data-gallery-prev aria-label="Previous photos">&lsaquo;</button>
+            <div class="gallery-track">
+              <img src="assets/img/about-gallery-01.jpg" alt="Ula smiling beside a stroller with mountain views behind her">
+              <img src="assets/img/about-gallery-02.jpg" alt="Family standing together on a mountain overlook">
+              <img src="assets/img/about-gallery-03.jpg" alt="Baby resting on a picnic blanket beside a lake">
+              <img src="assets/img/about-gallery-04.jpg" alt="Ula and baby relaxing together in a blue hammock">
+              <img src="assets/img/about-gallery-05.jpg">
+              <img src="assets/img/about-gallery-06.jpg" alt="Ula hiking with a baby carrier in a canyon landscape">
+              <img src="assets/img/about-gallery-07.jpg" alt="Ula holding a toddler and smiling outdoors">
+            </div>
+            <button class="gallery-button gallery-button-next" type="button" data-gallery-next aria-label="Next photos">&rsaquo;</button>
+          </div>
+
+          <div class="container">
+            <div class="text-carousel" data-carousel aria-label="About fun fact carousel">
+              <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous note">&lsaquo;</button>
+              <div class="carousel-track">
+                <p class="carousel-item is-active">I love slow mornings, chamomile tea, and the feeling of finding a quiet path through the trees</p>
+                <p class="carousel-item">I collect small rituals: lighting a candle before planning, gathering herbs, and marking seasonal changes at home.</p>
+                <p class="carousel-item">Movement helps me think, so many ideas arrive while walking, cycling, or wandering somewhere green.</p>
+              </div>
+              <button class="carousel-button" type="button" data-carousel-next aria-label="Next note">&rsaquo;</button>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="packages" class="tab-panel" data-tab-panel hidden>
+        <div class="hero hero-package">
+          <div class="hero-content">
+            <h1>Birth keeper packages</h1>
+          </div>
+        </div>
+
+        <section class="section package-section" aria-labelledby="package-natural-title">
+          <div class="container package-content">
+            <p class="package-intro">It would be an honor to walk beside you through pregnancy, birth, and the first tender time with your baby. This package is shaped to help you feel prepared, informed, protected, and cared for as your birth story unfolds.</p>
+
+            <article class="package-block">
+              <h2 id="package-natural-title">Birth Support Package - $1000</h2>
+              <p class="package-subhead">For families preparing for physiological birth, induction, or caesarean birth</p>
+              <p>Every birth unfolds in its own way. Whether you are planning a natural birth, preparing for a caesarean, or simply holding openness around how your baby may arrive, this package offers continuous support so you can feel informed, steady, cared for, and deeply supported through the transition into parenthood</p>
+
+              <ul class="package-list">
+                <li>Reflecting on previous pregnancy, birth, fertility, or loss experiences, and gently noticing what support you may need this time</li>
+                <li>Understanding the stages and possibilities of birth so you and your birth partner can feel informed and connected</li>
+                <li>Exploring the natural physiology of labor, birth hormones, and the conditions that support feelings of safety and trust</li>
+                <li>Practicing comfort tools such as breath, movement, massage, acupressure, water, TENS support, relaxation, and medical pain-relief options</li>
+                <li>Using stretches and positions that may support your baby's path and help your body feel more balanced before birth</li>
+                <li>Creating a birth plan that reflects your values, preferences, questions, and boundaries</li>
+                <li>Preparing for unexpected turns, including induction or caesarean birth, with clear information and compassionate planning</li>
+                <li>Gathering a thoughtful hospital bag or preparing your home environment for a calm birth space</li>
+                <li>Planning for skin-to-skin, first feeding, the golden hour, and the earliest moments of bonding</li>
+                <li>Exploring recovery, rest, feeding, visitors, nourishment, and practical support during the early postpartum weeks</li>
+                <li>Making space for questions, fears, hopes, decisions, and emotional preparation</li>
+              </ul>
+
+              <div class="package-inclusions">
+                <p><strong>Ongoing support</strong> by phone, text, and email through pregnancy.</p>
+                <p><strong>On-call support</strong> from 14 days before your due date until your baby is born.</p>
+                <p><strong>Birth attendance</strong> with nurturing, continuous support through labor, birth, and the first hours with your newborn.</p>
+                <p><strong>Two follow-up sessions</strong> for emotional reflection, practical guidance, and space to honor your birth story.</p>
+                <p><strong>Six weeks of postnatal support</strong> by phone and email.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section package-section package-section-warm" aria-labelledby="package-belly-title">
+          <div class="container package-content">
+            <article class="package-block">
+              <h2 id="package-belly-title">Online HypnoBirthing Preparation Package - $200</h2>
+              <p>A calm, connected approach to preparing for birth from wherever you are</p>
+              <p class="package-subhead">Four sessions during pregnancy, usually one hour each</p>
+              <p>What’s included:</p>
+
+              <ul class="package-list">
+                <li>Learn deep focus and relaxation techniques to support calmness, comfort, and confidence during pregnancy and birth</li>
+                <li>Prepare both physically and mentally for a positive and empowering birth experience</li>
+                <li>Deepen understanding and harmony between you and your partner by attending sessions together and building shared confidence</li>
+                <li>Explore and strengthen your personal boundaries and communication with medical providers so you feel informed and respected in your decisions</li>
+                <li>Strengthen your connection with your baby through intentional relaxation and mindful preparation</li>
+                <li>Support smoother birth experiences by reducing fear and tension and encouraging the body’s natural ability to work during labor</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section package-contact-section" aria-labelledby="package-contact">
+          <div class="container narrow centered">
+            <h2 id="package-contact" class="visually-hidden">Contact me about the package</h2>
+            <button class="button-link" type="button" data-tab-target="contact">Contact me</button>
+          </div>
+        </section>
+      </section>
+
+      <section id="contact" class="tab-panel" data-tab-panel hidden>
+        <section class="section contact-intro" aria-labelledby="contact-title">
+          <div class="container split contact-split">
+            <div class="circle-media contact-symbol">
+              <img src="assets/img/ritual-line.png" alt="Motherhood and moon ritual illustration">
+            </div>
+            <div class="copy-column contact-copy">
+              <h1 id="contact-title">Contact</h1>
+              <p>Please feel free to contact me.</p>
+              <address class="contact-details">
+                <a class="contact-method" href="mailto:ula@uladoula.com">
+                  <span aria-hidden="true">Email</span>
+                  ula@uladoula.com
+                </a>
+                <a class="contact-method" href="tel:+17202435510">
+                  <span aria-hidden="true">Phone</span>
+                  (+1) 7202435510
+                </a>
+              </address>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-form-section" aria-labelledby="contact-form-title">
+          <div class="container form-container">
+            <h2 id="contact-form-title" class="visually-hidden">Send a message</h2>
+            <form id="contact-form" action="https://formsubmit.co/ula@uladoula.com" method="post" novalidate>
+              <input type="hidden" name="_subject" value="New Ula Doula contact message">
+              <input type="hidden" name="_template" value="table">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="8" maxlength="2000" aria-describedby="message-help"></textarea>
+                <p class="char-count" id="message-help"><span id="message-count">0</span>/2000 characters</p>
+              </div>
+
+              <div class="form-actions">
+                <button class="button-link" type="submit">Send</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright (c) 2026 Ula Doula. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/site.js" defer></script>
+  </body>
+</html>
