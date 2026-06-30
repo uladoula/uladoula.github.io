@@ -117,9 +117,27 @@ h3 {
   display: inline-grid;
   place-items: center;
   color: var(--color-accent);
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
+  transition: color .18s ease, transform .18s ease;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: currentColor;
+}
+
+.social-link[href*="instagram"] svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
 }
 
 .logo-wrap {
